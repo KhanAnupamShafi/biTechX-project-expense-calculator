@@ -7,15 +7,11 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import React, { useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import React from "react";
+import { Outlet } from "react-router-dom";
 import image from "../../images/Ellipse 4@1X.png";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleClick = () => setIsOpen(!isOpen);
-
   return (
     <div>
       {/* <!-- mobile menu bar --> */}
